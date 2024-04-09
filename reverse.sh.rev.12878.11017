@@ -1,0 +1,27 @@
+ 
+
+
+done
+mv temp file
+head -n $l file > temp
+l=`expr $l - 1` 
+tail -n 1 file >> $revfname
+do
+while [ $l -ge 1 ]
+rm $revfname  
+revfname="$1.rev"
+l=`cat file | wc -l`
+cp $1 file
+fi
+exit 2
+echo "it is a directory"
+then 
+if [ -d $1 ]
+fi
+exit 1
+echo "syntax is <$0> <filename>"
+then 
+if [ $#  -ne  1 ]
+
+#set -vx
+#reverse without using tac command
